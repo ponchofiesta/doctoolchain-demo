@@ -1,0 +1,5 @@
+ifndef::imagesdir[:imagesdir: ../images]
+
+== Chapter 1
+
+image::star.svg[width=100]

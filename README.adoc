@@ -1,0 +1,10 @@
+to build all kind of output formats, use the following steps:
+
+```
+./dtcw generateHTML
+cp -r build/html5/images build/html5/01-Anwenderhandbuch/.
+./dtcw generatePDF
+./dtcw generateSite
+```
+
+to view all files, you can start a small webserver through `python -m http.server`
