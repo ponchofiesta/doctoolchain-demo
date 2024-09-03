@@ -1,0 +1,5 @@
+ifndef::imagesdir[:imagesdir: images]
+
+= Anwenderhandbuch
+
+image::star.svg[width=100]
