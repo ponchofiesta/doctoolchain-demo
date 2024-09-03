@@ -4,10 +4,10 @@ outputPath = 'build'
 // This path is appended to the docDir property specified in gradle.properties
 // or in the command line, and therefore must be relative to it.
 
-inputPath = '.'
+inputPath = 'src/asciidoc/doc/product'
 
 inputFiles = [
-    [file: "src/asciidoc/doc/product/Anwenderhandbuch/Anwenderhandbuch.adoc", formats: ['html']],
+    [file: "Anwenderhandbuch/Anwenderhandbuch.adoc", formats: ['html']],
     // [file: "src/asciidoc/doc/product/Anforderungsdefinition/Anforderungsdefinition.adoc", formats: ['html']],
     // [file: "src/asciidoc/doc/projectManagement/Projekthandbuch/Projekthandbuch.adoc", formats: ['html']],
     // [file: "src/asciidoc/doc/projectManagement/AllgemeineDokumente/Abkürzungsverzeichnis.adoc", formats: ['html']],
@@ -19,7 +19,7 @@ inputFiles = [
 //these will be copied as resources to ./images
 //folders are relative to inputPath
 imageDirs = [
-    "src/asciidoc/doc/product/Anwenderhandbuch/images",
+    "Anwenderhandbuch/images",
 ]
 
 taskInputsDirs = []
@@ -96,7 +96,7 @@ confluence = [:]
 confluence.with {
 
     input = [
-            [file: "build/html5/src/asciidoc/doc/product/Anwenderhandbuch/Anwenderhandbuch.html"],
+            [file: "Anwenderhandbuch/Anwenderhandbuch.html"],
             // [file: "build/html5/src/asciidoc/doc/product/Anforderungsdefinition/Anforderungsdefinition.html"],
             // [file: "build/html5/src/asciidoc/doc/projectManagement/Projekthandbuch/Projekthandbuch.html"],
             // [file: "build/html5/src/asciidoc/doc/projectManagement/AllgemeineDokumente/Abkürzungsverzeichnis.html"],
