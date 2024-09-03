@@ -1,0 +1,14 @@
+:jbake-order: 1
+:doctype: book
+
+imagesdir: {imagesdir}
+
+ifndef::imagesdir[:imagesdir: images]
+
+= Anwenderhandbuch
+
+imagesdir: {imagesdir}
+
+image::star.svg[width=100]
+
+include::chapters/chapter1.adoc[leveloffset=+0]
